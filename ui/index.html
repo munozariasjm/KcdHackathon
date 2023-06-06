@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Decentralized Medical Records</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+
+        .content {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Decentralized Medical Records System</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>Add Medical Record</h2>
+            <form id="addRecord">
+                <label for="patientId">Patient ID:</label><br>
+                <input type="text" id="patientId" name="patientId"><br>
+                <label for="medicalRecord">Medical Record:</label><br>
+                <textarea id="medicalRecord" name="medicalRecord"></textarea><br>
+                <input type="submit" value="Add Record">
+            </form>
+        </div>
+        <div class="content">
+            <h2>Search Medical Records</h2>
+            <form id="searchRecord">
+                <label for="search">Search:</label><br>
+                <input type="text" id="search" name="search"><br>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
