@@ -1,5 +1,10 @@
 
 # Decentralized Medical Records System (DeMeRS)
+---
+
+
+By: Jose M Munoz
+KCD Colombia 2023
 
 This little project proposal for **KCD Colombia 2023's hackathon** aims to provide a secure, interoperable, and efficient system for managing patient medical records. We utilize Blockchain for secure and decentralized data storage, Kubernetes for scalable deployment, and large language models (LLMs) with vector search to help healthcare providers (all along the world) find similar cases and their treatment.
 
@@ -15,6 +20,7 @@ This would be a great solution for optimizing the healthcare system in Colombia 
   - [Testing](#testing)
   - [Contributing](#contributing)
   - [License](#license)
+  - [Contributors](#contributors)
 
 ## Project Structure
 
@@ -46,7 +52,7 @@ This would be a great solution for optimizing the healthcare system in Colombia 
 
 1. **Clone the repository**
 ```
-git clone https://github.com/munozariasjm/project.git
+git clone https://github.com/munozariasjm/DeMeRS.git
 cd project
 ```
 
@@ -97,3 +103,7 @@ Contributions are welcome. Please submit a pull request, or create an issue for 
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## Contributors
+
+[munozariasjm](https://github.com/munozariasjm)
