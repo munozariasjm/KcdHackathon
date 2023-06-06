@@ -4,6 +4,7 @@
 
 
 By: Jose M Munoz
+
 KCD Colombia 2023
 
 This little project proposal for **KCD Colombia 2023's hackathon** aims to provide a secure, interoperable, and efficient system for managing patient medical records. We utilize Blockchain for secure and decentralized data storage, Kubernetes for scalable deployment, and large language models (LLMs) with vector search to help healthcare providers (all along the world) find similar cases and their treatment.
